@@ -51,13 +51,12 @@ const images = [
   'https://media.istockphoto.com/id/515161366/photo/sunrise-behind-mt-kenya.jpg?s=612x612&w=0&k=20&c=HholJet9EY-s9c4Fst7iF8TetXVvuUNHoUp5DnHZV_M='
 ];
 
-//adding images
 images.forEach(src => {
   const img = document.createElement('img');
   img.src = src;
   img.alt = 'cities';
-  img.style.width = '800px';
-  img.style.height = '400px';
+  img.style.width = '300px';
+  img.style.height = '250px';
   img.style.objectFit = 'fit';
   imgContainer.appendChild(img);
 });
